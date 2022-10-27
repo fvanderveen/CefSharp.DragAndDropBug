@@ -42,7 +42,8 @@
         </Grid>
         <Border Grid.Row="1" BorderBrush="Gray" BorderThickness="0,1">
             <wpf:ChromiumWebBrowser x:Name="Browser"
-                                    Address="https://www.google.com">
+                                    AllowDrop="True"
+                                    Address="https://jsfiddle.net/_Yhn/24jmqgbh">
                 <behaviors:Interaction.Behaviors>
                     <behaviours:HoverLinkBehaviour x:Name="HoverLinkBehaviour"/>
                 </behaviors:Interaction.Behaviors>
